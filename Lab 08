@@ -1,4 +1,4 @@
-//ZTI zadanie 1
+Zad 1.
 select nazwisko from pracownik order by nazwisko;
 select imie, nazwisko, pensja from pracownik where year(data_urodzenia)>1970;
 select * from pracownik where pensja between 3500 and 5000;
